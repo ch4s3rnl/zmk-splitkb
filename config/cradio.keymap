@@ -32,7 +32,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <28 29>;
+            key-positions = <9 8>;
         };
 
         alt+s {
@@ -42,7 +42,7 @@
 
         layer_3 {
             bindings = <&mo 3>;
-            key-positions = <30 33>;
+            key-positions = <33 32>;
         };
     };
 
