@@ -60,6 +60,21 @@
             bindings = <&kp P &kp A &kp T &kp E &kp R &kp N &kp TAB &kp N &kp TAB &kp TAB &kp TAB>;
             label = "BRP_AFHANDEL";
         };
+        
+        secret1: secret1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp A &kp R &kp I &kp N &kp G &kp E &kp N>;
+            label = "SECRET1";
+        };
+
+        secret2: secret2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N2 &kp N3 &kp QMARK>;
+            label = "SECRET2";
+        
+        };
     };
 
     keymap {
