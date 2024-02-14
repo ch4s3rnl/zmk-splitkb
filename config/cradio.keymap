@@ -44,6 +44,11 @@
             bindings = <&mo 3>;
             key-positions = <33 30>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 0>;
+        };
     };
 
     macros {
@@ -85,10 +90,10 @@
 
         sym_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans       &trans         &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT
-&trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END
-                        &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans         &trans    &trans  &trans    &trans       &trans         &trans
+&trans  &trans  &trans  &trans         &trans    &trans  &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT
+&trans  &trans  &trans  &trans         &trans    &trans  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END
+                        &kp LG(SPACE)  &trans    &trans  &trans
             >;
         };
 
